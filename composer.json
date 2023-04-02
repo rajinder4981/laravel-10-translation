@@ -2,7 +2,11 @@
         "name": "rajinder4981/laravel-10-translation",
         "description": "we can manager laravel lang directory",
         "type": "library",
-        "require": {},
+        "require": {
+            "php": "^8.0",
+            "illuminate/support": "^8.0",
+            "laravel/legacy-factories": "^1.3"
+        },
         "license": "MIT",
         "autoload": {
             "psr-4": {
